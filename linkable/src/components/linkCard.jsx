@@ -15,10 +15,10 @@ export default function LinkCard() {
         'TikTok'
     ]
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mt: 10}}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mt: 10 }}>
             {linkNames.map((name, index) => (
                 <Card sx={{ width: 345, mb: 2 }} key={index}>
-                    <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <CardContent sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Typography>
                             {name}
                         </Typography>

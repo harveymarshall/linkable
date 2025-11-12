@@ -1,11 +1,11 @@
 import * as React from 'react';
 import {
-    AppBar,
-    Box,
-    Toolbar,
-    Typography,
-    Button,
-    IconButton
+  AppBar,
+  Box,
+  Toolbar,
+  Typography,
+  Button,
+  IconButton
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -15,9 +15,9 @@ export default function TransparentAppBar() {
       <AppBar
         position="sticky"
         sx={{
-            backgroundColor: 'transparent',
-            boxShadow: 'none'
-          }}
+          backgroundColor: 'transparent',
+          boxShadow: 'none'
+        }}
       >
         <Toolbar>
           <IconButton
